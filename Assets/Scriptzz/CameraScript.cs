@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CameraScript : MonoBehaviour
 {
-    public GameObject target;
+    GameObject target;
     // Start is called before the first frame update
     void Start()
     {
-        
+        target = GameObject.FindGameObjectWithTag()
     }
 
     // Update is called once per frame
