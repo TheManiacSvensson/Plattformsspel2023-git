@@ -309,7 +309,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f927f3cc7405a134db4bac0d88a27d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1445429180}
+  HorizontalPadding: 3
+  VerticalPadding: 2
 --- !u!1001 &1214884740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -395,11 +396,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 683ac73072c81c9449b66b68fb434b97, type: 3}
---- !u!1 &1445429180 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3609728156493370115, guid: 683ac73072c81c9449b66b68fb434b97, type: 3}
-  m_PrefabInstance: {fileID: 1214884740}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1748984410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3574080444400748026, guid: 1250cc9aacb9cf34e99e9d12fb0b6c46, type: 3}
@@ -483,7 +479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3574080444400748026, guid: 1250cc9aacb9cf34e99e9d12fb0b6c46, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3574080444400748026, guid: 1250cc9aacb9cf34e99e9d12fb0b6c46, type: 3}
       propertyPath: m_LocalPosition.z

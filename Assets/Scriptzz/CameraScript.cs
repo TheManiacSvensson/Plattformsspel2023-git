@@ -5,15 +5,41 @@ using UnityEngine;
 public class CameraScript : MonoBehaviour
 {
     GameObject target;
+    Camera cam;
+
+    public float HorizontalPadding = 3.0f;
+    public float VerticalPadding = 2.0f;
+
+    float maxHorizontalDistance;
+    float maxVerticalDistance;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag()
+        target = GameObject.FindGameObjectWithTag("Player");
+        cam = GetComponent<Camera>();
+
+        maxVerticalDistance = cam.orthographicSize - VerticalPadding;
+        maxHorizontalDistance = cam.orthographicSize * cam.aspect - HorizontalPadding;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(target.transform.position.x, target.transform.position.y, -15);
+        if (target.transform.position.x > transform.position.x + maxHorizontalDistance)
+        {
+            SetX(target.transform.position.x - maxHorizontalDistance);
+        }
+    }
+
+    void SetX(float NewX)
+    {
+        transform.position = new Vector3(NewX, transform.position.y, transform.position.z);
+    }
+    void SetY(float NewY)
+    {
+        transform.position = new Vector3(transform.position.x, NewY, transform.position.z);
+
     }
 }
