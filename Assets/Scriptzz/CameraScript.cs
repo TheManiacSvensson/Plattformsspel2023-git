@@ -31,6 +31,18 @@ public class CameraScript : MonoBehaviour
         {
             SetX(target.transform.position.x - maxHorizontalDistance);
         }
+        if (target.transform.position.x < transform.position.x - maxHorizontalDistance)
+        {
+            SetX(target.transform.position.x + maxHorizontalDistance);
+        }
+        if (target.transform.position.y > transform.position.y + maxVerticalDistance)
+        {
+            SetY(target.transform.position.y - maxVerticalDistance);
+        }
+        if (target.transform.position.y < transform.position.y - maxVerticalDistance)
+        {
+            SetY(target.transform.position.y + maxVerticalDistance);
+        }
     }
 
     void SetX(float NewX)
