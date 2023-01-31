@@ -15,10 +15,7 @@ public class SnailMoveScript : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        if (transform.position.x > 1)
-        {
+    {   
             RB.velocity = new Vector2(SnailSpeed, RB.velocity.y);
-        }
     }
 }

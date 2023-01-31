@@ -40,11 +40,6 @@ public class playerscript : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.tag == "EndOfLevel")
-        {
-            Debug.Log("Lmao dumbass");
-            transform.position = StartPosition;
-        }
         if (collision.collider.tag == "Enemy")
         {
             transform.position = StartPosition;
