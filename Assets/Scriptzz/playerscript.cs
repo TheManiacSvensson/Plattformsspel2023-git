@@ -6,14 +6,16 @@ public class playerscript : MonoBehaviour
 {
     Rigidbody2D rb;
     public float MoveSpeed = 10;
-    public float JumpStrength = 5;
+    public float JumpStrength = 290;
 
+    IsItGroundScriptzz Groundscript;
     Vector3 StartPosition;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         StartPosition = transform.position;
+        Groundscript = GetComponentInChildren<IsItGroundScriptzz>();
     }
 
     // Update is called once per frame
@@ -32,9 +34,10 @@ public class playerscript : MonoBehaviour
         {
             rb.velocity = new Vector2(MoveSpeed, rb.velocity.y);
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && Groundscript.IsOnGround == true)
         {
-            rb.AddForce(new Vector2(0, JumpStrength));
+            //rb.AddForce(new Vector2(0, JumpStrength));
+            rb.velocity = new Vector2(rb.velocity.x, JumpStrength);
         }
 
     }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1894763354163115813}
   - component: {fileID: 1024374397197311993}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: planetHalf_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -660723339
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7bd4bdfa36790454680adf70e7efaef3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8121606314977559080}
   - component: {fileID: 103789679119543385}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: planetHalf_mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -660723339
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8a49cc5c5a08b61459ce36b0c1218baa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6923990882485411482}
   - component: {fileID: 1105147245612091806}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: planetHalf_mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -660723339
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8a49cc5c5a08b61459ce36b0c1218baa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3867464540510477235}
   - component: {fileID: 7779729369238419221}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: planetHalf_mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -660723339
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8a49cc5c5a08b61459ce36b0c1218baa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -346,7 +346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6769307035996854010}
   - component: {fileID: 3817159180381918386}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: planetHalf_mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -407,7 +407,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -660723339
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8a49cc5c5a08b61459ce36b0c1218baa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -430,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4983643775974678556}
   - component: {fileID: 7145589304370929698}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: planetHalf_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -660723339
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0a7b34859f74ff543b038fb0dedcaf2b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -514,7 +514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5496769317555648871}
   - component: {fileID: 6830448579275281359}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: planetHalf_mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -575,7 +575,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -660723339
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8a49cc5c5a08b61459ce36b0c1218baa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -599,7 +599,7 @@ GameObject:
   - component: {fileID: 4244941956849450409}
   - component: {fileID: 379816311983068644}
   - component: {fileID: 3144798039620005685}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TinyPlanetIsland
   m_TagString: Untagged
   m_Icon: {fileID: 0}
