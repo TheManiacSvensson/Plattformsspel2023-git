@@ -63,5 +63,9 @@ public class playerscript : MonoBehaviour
         {
             transform.position = StartPosition;
         }
+        if (collision.collider.tag == "StartTrigger")
+        {
+            transform.position = StartPosition;
+        }
     }
 }
