@@ -16,6 +16,14 @@ public class SnailMoveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-            RB.velocity = new Vector2(SnailSpeed, RB.velocity.y);
+            RB.velocity = new Vector2(SnailSpeed, 0);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.tag == "Trigger")
+        {
+            RB.velocity *= -1;
+        }
     }
 }
